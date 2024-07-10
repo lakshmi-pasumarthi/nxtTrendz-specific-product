@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.item {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+@media screen and (min-width: 768px) {
+  .item {
+    width: 200px;
+    margin-right: 64px;
+  }
+}
+.img {
+  width: 200px;
+  border-radius: 8px;
+}
+.title {
+  color: #171f46;
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+.brand {
+  color: #594d6d;
+  font-family: roboto;
+  font-size: 16px;
+  margin-top: 6px;
+}
+.price-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+}
+.price {
+  color: #171f46;
+  font-family: roboto;
+  font-size: 18px;
+  font-weight: 700;
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+  background-color: #3b82f6;
+  border-radius: 6px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.rating {
+  color: white;
+  font-family: roboto;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 4px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.star {
+  width: 14px;
+  height: 14px;
+}
